@@ -14,7 +14,15 @@ const ListadoProyectos = () => {
 
   //Revisar si proyectos tiene contenido
 
-  if (proyectos.length === 0) return null;
+  if (proyectos.length === 0)
+    return (
+      <p>
+        No tienes proyectos, comienza creando uno{" "}
+        <span role="img" aria-label="Smily face">
+          &#128515;
+        </span>
+      </p>
+    );
 
   return (
     <ul className="listado-proyectos">
