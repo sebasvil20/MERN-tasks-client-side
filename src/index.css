@@ -57,7 +57,7 @@ a {
   margin-top: 2rem;
   font-family: var(--headingFont);
   padding: 1.5rem;
-  font-size: 1.4;
+  font-size: 2rem;
   font-weight: 400;
   border-radius: 0.5rem;
   border: none;
@@ -87,9 +87,13 @@ a {
   margin: 0;
   padding: 0;
   display: block;
+  text-align: left;
   background-color: transparent;
 }
 
+.cerrar-sesion {
+  color: white;
+}
 @media (min-width: 768px) {
   .contenedor-app {
     display: flex;
@@ -173,6 +177,7 @@ aside {
 }
 .input-text {
   padding: 1rem;
+  font-size: 2.5rem;
   border: none;
   border-radius: 0.5rem;
   flex: 1;

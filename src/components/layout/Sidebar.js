@@ -10,7 +10,7 @@ const Sidebar = () => {
         <NuevoProyecto />
       </h1>
       <div className="proyectos">
-        <h2>Tus proyetos</h2>
+        <h2>Tus proyectos</h2>
         <ListadoProyectos />
       </div>
     </aside>
